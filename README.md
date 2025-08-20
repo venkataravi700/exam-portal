@@ -1,9 +1,11 @@
 **Exam Portal**
+
 A full-stack web application for an online examination portal. This project consists of two main components: a Node.js/Express backend and a React.js frontend.
 
 
 
 **Features**
+
 User Authentication: Secure user registration and login with JWT.
 
 Timed Exams: A timer component to track the duration of the exam.
@@ -17,6 +19,7 @@ Score Calculation: Display of results with correct and incorrect answers.
 Responsive Design: The frontend is designed to be accessible on various devices.
 
 **Project Structure**
+
 The repository is organized into two main directories:
 
 exam-backend: Contains the server-side code, including API routes, database models, and authentication logic.
@@ -25,9 +28,11 @@ exam-portal: Contains the client-side code for the user interface, built with Re
 
 
 **Getting Started**
+
 Follow these steps to set up and run the project on your local machine.
 
 **1. Backend Setup**
+
 Navigate to the backend directory in your terminal:
 
 cd exam-backend
@@ -56,6 +61,7 @@ npm start
 The backend server will now be running at http://localhost:5000 (or the port you specified).
 
 **2. Frontend Setup**
+
 Open a new terminal window or tab and navigate to the frontend directory:
 
 cd ../exam-portal
@@ -81,6 +87,7 @@ Open your web browser and navigate to the address of your frontend application (
 You should see the login page for the exam portal. You can now test the application's functionality.
 
 **Technologies Used**
+
 **Backend**
 
 Node.js: JavaScript runtime environment.
