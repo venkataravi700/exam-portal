@@ -35,8 +35,6 @@ cd exam-backend
 Install the required Node.js packages:
 
 npm install
-# or
-yarn install
 
 Create a .env file in the exam-backend directory and add the following environment variables. Replace the placeholder values with your actual configuration.
 
