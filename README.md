@@ -51,8 +51,7 @@ JWT_SECRET: A secret key for signing JSON Web Tokens (JWTs) used for authenticat
 Start the backend server:
 
 npm start
-# or
-yarn start
+
 
 The backend server will now be running at http://localhost:5000 (or the port you specified).
 
@@ -64,18 +63,17 @@ cd ../exam-portal
 Install the required packages:
 
 npm install
-# or
-yarn install
+
 
 Start the frontend development server:
 
 npm run dev
-# or
-yarn dev
+
 
 The frontend application will now be running and accessible at http://localhost:5173 (or a similar address that Vite provides).
 
 **Usage**
+
 Ensure both the backend and frontend servers are running.
 
 Open your web browser and navigate to the address of your frontend application (e.g., http://localhost:5173).
@@ -84,6 +82,7 @@ You should see the login page for the exam portal. You can now test the applicat
 
 **Technologies Used**
 **Backend**
+
 Node.js: JavaScript runtime environment.
 
 Express.js: Web application framework for Node.js.
@@ -97,6 +96,7 @@ JWT: JSON Web Tokens for authentication.
 bcrypt.js: Library for hashing passwords.
 
 **Frontend**
+
 React.js: JavaScript library for building user interfaces.
 
 Vite: Frontend build tool.
